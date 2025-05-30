@@ -1,12 +1,12 @@
 # Candidate-Events-MP-Website-Scrape
 
-DISCLAIMER: The Application code script and tool is intended to facilitate research, by authorised and approved parties, pursuant to the ideals of libertarian democracy in the UK, by Campaign Lab membership. Content subject-matter and results can be deemed sensitive and thus confidential. Therefore illicit and authorisation for any other use, outside these terms, is hereby not implied pursuant to requisite UK Data Protection legislation and the wider GDPR enactments within the EU.
+DISCLAIMER: Where as the Application code script and tool is intended to facilitate research, by authorised and approved parties, pursuant to the ideals of libertarian democracy in the UK, by Campaign Lab membership. And where as deemed to be in the public domain, content subject-matter and generated results can be assumed sensitive and thus confidential. Therefore illicit and unauthorised usage outside these terms, is hereby not implied pursuant to requisite UK Data Protection legislation and the wider GDPR enactments within the EU. Usage without the consent of the author, is also NOT implied.
 
 BACKGROUND: How political candidates and politicians describe themselves and how they choose to spend their time are both enormously rich data points that can allow us to cut through the noise and understand what the people running our country actually think, what their priorities really are. 
 
 CHALLENGE: Scrape the text and events pages of MPs websites and create a navigable database containing that information so that it can be subject to analysis. 
 
-FOUNDATIONAL SOLUTION:
+FOUNDATION AND PRIMARY SOLUTION:
 
 Here is a complete Scrapy project written in a single Python file that:
 
@@ -61,6 +61,11 @@ Item Pipeline: Processes the extracted data and exports it to a JSON file.
 📄 Output
 
 The final output is a JSON file named ukmpprofile2.json, containing structured data about each MP's personality profile, social identity, ideological standpoint, and more. 
+
+
+ADDENDA:
+
+The Python script code offers the primary foundation to the building blocks, of a host of solutions to the defined project challenges. Additional Python libraries may be incorporated, as and when necessary, to provide alternate and enhanced programatic solutions later.
 
 
 
