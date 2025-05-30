@@ -67,6 +67,8 @@ ADDENDA:
 
 The Python script code offers the primary foundation to the building blocks, of a host of solutions to the defined project challenges. Additional Python libraries may be incorporated, as and when necessary, to provide alternate and enhanced programatic solutions later.
 
+Written in UNIX/LINUX script format, the program code is compartible with MacOS CLI for execution thus; (user)$: sudo chmod u+x ukmpprofile2_jason.py. Alternatively, Microsoft Windows users can edit the UNIX/LINUX "shebang!" headers and run the script directly from the Python Directory environment, via CMD or Powershell.
+
 
 
 
