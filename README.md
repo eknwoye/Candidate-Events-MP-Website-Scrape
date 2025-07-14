@@ -70,6 +70,65 @@ The Python script code offers the primary foundation to the building blocks, of 
 Written in UNIX/LINUX script format, the program code is compartible with MacOS CLI for execution thus; (user)$: sudo chmod u+x ukmpprofile2_jason.py. Alternatively, Microsoft Windows users can edit the UNIX/LINUX "shebang!" headers and run the script directly from the Python Directory environment, via CMD/CLI or Powershell.
 
 
+----- ----- ----- ----- ------ ------- ------ ------- 
+
+
+The ukmpprofile2_csv.pl code script represents a revised web scrapping Application tool written in PERL 5.x, that equally provides  requisite solutions to the stated project challenges thus;
+
+Scrapes MP data from:
+
+1. https://www.theyworkforyou.com/mps/
+
+2. https://members.parliament.uk/constituencies
+
+Visits each MP’s profile/linked page to collect and analyze textual data.
+
+Uses regex to extract insights (e.g., personality, ideology, policy themes).
+
+Stores results in a CSV (ukmpprofile2.csv).
+
+
+Provides both:
+
+A CLI search interface.
+
+A Mojolicious web viewer for search/display.
+
+
+------ ------ ------ ------ ------
+
+✅ How to Use:
+
+1. Run scraper + save CSV:
+
+perl ukmpprofile2_csv.pl, (or $ chmod u+x ukmpprofile2_csv.pl, for UNIX/LINUX & MacOS System Plarforms)
+
+2. CLI Search:
+
+perl ukmpprofile2_csv.pl cli --search "NHS"
+
+3. Run Web Viewer:
+
+perl ukmpprofile2_csv.pl web
+
+Then open http://localhost:3000 in your browser.
+
+
+------ ------- ------ -------
+
+✅ Operating System Dependencies:
+
+Install required CPAN modules:
+
+cpan install Mojo::UserAgent Mojo::DOM Text::CSV Mojolicious Getopt::Long
+
+
+
+
+
+
+
+
 
 
 
